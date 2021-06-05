@@ -1,0 +1,144 @@
+/*-----------------------------------
+----Global CSS For All Projects------
+-----------------------------------*/
+
+/*=======Global CSS ==========*/
+
+/*A*/
+
+/*B*/
+.background-size-cover{
+	background-size:cover;
+}
+.background-repeat-no-repeat{
+	background-repeat:no-repeat;
+}
+.background-position-center{
+	background-position:center;
+}
+.bg-pink{
+	background-color: #e8505b!important;
+}
+.bg-projects{
+	background-color: #ffffff!important;
+}
+.bg-gray{
+	background-color: #fef6f6 !important;
+}
+.box-shadow{
+	box-shadow: 0px 30px 50px rgb(232 80 91 / 25%);
+}
+.hover-shadow:hover{
+	box-shadow: 0px 30px 50px rgb(232 80 91 / 25%);
+}
+.bg-transparent-white{
+	background-color: #dc354500!important;
+}
+.bg-background-white{
+	background-color:white!important;
+}
+/*C*/
+.carsor-pointer{
+	cursor:pointer;
+}
+.card:hover .card-transform-scale-110,
+.hover-transform-scale-110:hover{
+	transform:scale(1.1);
+}
+.carousel-indicators-circle li{
+	border-radius:50%;
+	height:1rem;
+	width:1rem;
+}
+/*D*/
+.display-5{
+	font-size: 3rem;
+	font-weight: 300;
+	line-height: 1.2;
+}
+.display-6{
+	font-size: 2.75rem;
+	font-weight: 400;
+	line-height: 1.2;
+}
+/*E*/
+
+/*F*/
+.font-weight-6{
+	font-weight:600!important;
+}
+.font-weight-4{
+	font-weight:400!important;
+} 
+/*G*/
+
+/*H*/
+.h6{
+    font-size: 1rem!important;
+}
+.hover-opacity{
+	opacity:0.5;
+}
+.hover-opacity:hover{
+	opacity:1;
+}
+/*I*/
+
+/*J*/
+
+/*K*/
+
+/*L*/
+.left-auto{
+	left:auto;
+}
+/*M*/
+.mt-7 {
+    margin-top: 7rem!important;
+}
+.mt-6{
+	margin-top:5rem;
+}
+.mb-6{
+    margin-bottom: 6.5rem!important;
+}
+/*N*/
+
+/*O*/
+
+/*P*/
+
+/*Q*/
+
+/*R*/
+
+/*S*/
+
+/*T*/
+.transition-all{
+	transition:all;
+}
+.duration-200{
+	transition-duration:.2s;
+}
+.duration-1000{
+	transition-duration:1s;
+}
+.text-muted{
+    font-weight: 400!important;
+	font-size: 17px!important;
+    line-height: 1.5!important;
+    color: #868e96!important;
+}
+.text-pink{
+	color: #e8505b!important;
+}
+/*U*/
+
+/*V*/
+
+/*W*/
+
+/*X*/
+
+/*z*/

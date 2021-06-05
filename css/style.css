@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+section{
+	padding-top:100px;
+	padding-bottom:75px;
+}
+/*--===== header part =====--*/
+#main-nav ul li a.active{
+	color:#ffeb3b!important;
+	background-color:#3f51b5a1!important;
+	border-radius:5px;
+}
+/*--===== home part =====--*/
+#fully-service{
+	margin-bottom:-237px;
+}
+/*--===== logo part ======--*/
+#logo{
+	margin-top:150px;
+}
+/*--=====pricing table =====--*/
+#table .text-hover:hover{
+	color: #e8505b!important;
+}
+/*--===== ======--*/
+#social-link ul li a{
+	height:2.45rem;
+	width:2.5rem;
+}
+/*---=====media device-----======*/
+@media (max-width: 991px){
+	.offcanvas-md{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height:100vh;
+		width:300px;
+		background-color:gray;
+		padding:1.5rem;
+		display:block!important;
+		transform:translateX(-100%);
+		transition:all 1s;
+	}
+	.offcanvas-md.show{
+		transform:translateX(0%);
+	}
+	.offcanvas-md.offcanvas-right{
+		left:100%;
+		transform:translateX(100%);
+	}
+	.offcanvas-md.offcanvas-right.show{
+		transform:translateX(-100%);
+	}
+
+}
+@media(max-width:576px){
+	#home h1{
+		font-size:2.2rem;
+	}
+	#service-2 h2{
+		font-size:1.5rem;
+	}
+	#delivery h1{
+		font-size: 2.1rem; 
+	}
+	#service h2{
+		font-size:1.5rem;
+	}
+}
